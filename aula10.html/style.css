@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h5, h4{
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-top: 3%;
+    text-align: center;
+}
+#botão{
+    background-color: rgb(255, 255, 255);
+    margin: 10% 38%;
+}
+#primeiro{
+    background-color: rgb(96, 25, 129);
+    margin: 0;
+    height: 20px;
+}
+.segundo{
+    background-color: mediumslateblue;
+    height: 50px;
+    font-size: larger;
+}
+#capa{
+    width: 380px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+   border-radius: 5% 5% 0% 0%;
+}
+#profile{
+    width: 160px;
+    border-radius: 50%;
+    position: relative;
+    z-index: index 1;
+    margin: 15% 28% 0% 28%;
+}
+
+#campo{
+    margin: auto;   
+    width: 380px;
+    height: 500px;
+    background-color: rgb(204, 204, 224);
+    border-radius: 5%;
+    margin: 5%;
+}
+.divM{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+footer{
+    background-color: crimson;
+    height: 50px;
+}
+#coracao{
+    width: 50px;
+    position: relative;
+}
