@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;1,500 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+*{
+    box-sizing: border-box;
+    margin:0%
+}
+body{
+    background-image: url(imagens/sanpaulo.jpg);
+    object-fit: cover;
+}
+.first{
+    background-color: black;
+    height: auto;
+    display: flex;
+    padding: 20px 0px;
+    margin: 0%;
+}
+.logo{
+    background-image: url(imagens/flagSP.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit:cover;
+    height: 150px;
+    width: 250px;
+    margin-left: 10%;
+
+}
+.botao{
+    width: 200px;
+    height: 75px;
+    border-radius: 36px;
+    
+}
+.botoes{
+    margin-left: 15%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+.teste{
+    margin-top: 0%;
+}
+.grajau{
+    height:350px;
+    width: 100%;
+    background-image: url(imagens/grajauex.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+.ex{
+    font-family: 'Bebas Neue', cursive;
+    border-radius:  5px;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 27%;
+    height: 100%;
+    padding: auto;
+}
+.curious-sp{
+    width: 304px;
+    height: auto;
+    background-color: #FBFAF6;
+    left: 10%;
+    margin-left: 50px;
+}
+.curious{
+    display: flex;
+    margin-left: 10%;
+}
+.txt h1{
+    text-align: center;
+    color: white;
+    font-family:'Bebas Neue', cursive;
+    background-color:  black;
+}
+
+.curious-sp img{
+    width: 304px;
+    height: 250px;
+    object-fit: cover;
+}
+iframe{
+    margin-left: 15%;
+
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    padding-left: 30%;
+}
+.github img{
+    width: 600px;
+    height: 150px;
+    object-fit: cover;
+}
+.linkedin img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

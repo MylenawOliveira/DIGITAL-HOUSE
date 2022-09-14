@@ -1,18 +1,224 @@
+@import url(https://fonts.google.com/specimen/Roboto);
 *{
-    box-sizing: border-box;
-    margin: 0%;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#primeiro{
-    background-color: black;
-    margin: 0;
-    height: 20px;
-}
-.meio{
-    height: 20px;
-    background-color: rgb(184, 103, 38);
-}
-.imagem{
+header{
+    background-color: #222222;
     width: 100%;
-    height: 400px;
+    height: auto;
+    display:flex;
+}
+header h6{
+    color: white;
+    margin-left: 1%;
+}
+.hLista{
+    margin-left: 75%;
+}
+header li{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.patinha{
+    width: 20px;
+}
+.segundo{
+    width: 100%;
+    height: 60px;
+    background-color: #F0A83E;
+    position: absolute;
+    display: flex;
+    top: 20px;
+}
+.branco{
+    color: white;
+}
+nav li{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.alinhamento{
+    display: flex;
+    margin-right: 45%;
+}
+
+.tudo{
+    width: 100%;
+    height: 500px;
+    margin-top: 59px;
+    background-image: url(imagens/capa.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.tudo p{
+    background-color: white;
+    width: 400px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+}
+.grupo{
+    display:inline-block;
+    text-align: center;
+    position: relative;
+    height: 200px;
+    padding: 10% 0% 10% 70%;
+}
+.grupo h6{
+    font-size: 16px;
+    padding: 4%;
+}
+.grupo button{
+    background-color: #F0A83E;
+    width: 141px;
+    height: 49px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.produtos{
+    margin-top: 1%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.pata{
+    object-fit: cover;
+}
+.produtos li{
+    display: inline-block;
+}
+.compra{
+    display: flex;
+
+}
+.itens-compra{
+    width: 304px;
+    height: auto;
+    background-color: #FBFAF6;
+    left: 10%;
+}
+.itens-compra h5{
+    text-align: center;
+    font-size: 20px;
+    color: #3C2313;
+}
+.itens-compra h6{
+    text-align: center;
+    font-size: 20px;
+    color: #F0A83E;
+}
+.img{
+   padding-left: 5%;
+}
+.contato{
+    display:flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.inserir{
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    background-color: #3C2313;
+}
+.inserir::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+
+.one{
+    background-color:#8A8787;
+}
+.two{
+    background-color: #F0A83E;
+}
+.one, .two{
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.inscreva{
+    width: 100%;
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    margin-top: 5%;
+    padding: auto;
+}
+.inscreva img{
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+    padding-right: 5px;
+}
+.inscreva h1{
+    font-size: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.inscreva input{
+    border-radius: 15px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    padding-left: 10px; ;
+    margin-right: 1%;
+}
+.send{
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: white;
+    margin-left: 0%;
+}
+.final{
+    background-color: #3C2313; 
+    display: block;
+}
+.final img{
+    width: 80px;
+    height: 80px;
+    margin-left: 0%;
+    padding: 25px;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+}
+dl{
+    margin-left: -85%;
+}
+dt{
+    font-size: 25px;
+    font-weight: 700;
+    color:white
+}
+dd{
+    font-size: 15px;
+    font-weight: 700;
+    color:#8A8787;
+}
+
+.fundo{
+    width: 166px;
+    height: 13px;
+    text-align: right;
+    display: flex;
+}
+.fundo img{
     object-fit: cover;
 }
